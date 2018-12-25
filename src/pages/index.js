@@ -22,8 +22,7 @@ import "../images/portfolio-3.jpg";
 import "../images/portfolio-4.jpg";
 import "../styles/global.js";
 import PortfolioSection from "../components/PortfolioSection.js";
-
-import "../scss/stylish-portfolio.scss";
+import "../scss/stylish-portfolio.css";
 
 
 
