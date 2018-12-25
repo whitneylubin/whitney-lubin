@@ -1,15 +1,14 @@
-body,
 .portfolio-item {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 100%;
+  max-width: auto;
   margin: auto auto 1rem;
 }
 .portfolio-item .caption {
   display: flex;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: rgba(33, 37, 41, 0.2);
   position: relative;
   top: 0;
