@@ -15,6 +15,12 @@
   bottom: 0;
   z-index: 1;
 }
+.portfolio-item .caption .img-fluid {
+  height: auto;
+  width: auto;
+  position: relative;
+  display: flex;
+}
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
@@ -38,7 +44,7 @@
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-    transition: opacity 0.25s;
+    transition: opacity 10s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
@@ -53,8 +59,10 @@
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
+  }
+  .img-fluid {
+    background-image: "";
   }
 }
