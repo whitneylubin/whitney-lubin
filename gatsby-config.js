@@ -4,7 +4,7 @@ const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 
 module.exports = {
   /* General Information */
-  pathPrefix: "/whitneylubin.github.io",
+  pathPrefix: config.pathPrefix,
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix
   },
