@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Gatsby Starter Portfolio Cara",
+  "name": "gatsby-starter-portfolio-whitney",
+  "description": "Gatsby Starter Portfolio Whitney",
   "version": "2.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Whitney Lubin <justwhitneylubin@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-tailwind": "^0.1.10",
