@@ -24,8 +24,6 @@ import "../styles/global.js";
 import PortfolioSection from "../components/PortfolioSection.js";
 import "../scss/stylish-portfolio.css";
 
-
-
 const Divider = styled(ParallaxLayer)`
   ${tw("absolute w-full h-full")};
   background: ${props => props.bg};
@@ -116,7 +114,7 @@ const Avatar = styled.img`
 
 const Jb = styled.img`
   ${tw("rounded-full w-48 xl:w-60 shadow-lg h-auto")};
-  `;
+`;
 
 const AboutSub = styled.span`
   ${tw("text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl")};
@@ -262,7 +260,8 @@ const Index = () => (
           icon="triangle"
           width={8}
           stroke={colors["grey-darker"]}
-          left="25%"imgs
+          left="25%"
+          imgs
           top="5%"
         />
         <SVG icon="circle" width={64} fill={colors.green} left="95%" top="5%" />
@@ -309,7 +308,7 @@ const Index = () => (
             Hello, <br /> I'm Whitney Lubin.
           </BigTitle>
           <Subtitle>
-            I'm creating web and mobile experiences for the next generation of
+            I'm a Full Stack Engineer creating web and mobile experiences for the next generation of
             consumer-facing companies.
           </Subtitle>
         </Hero>
@@ -520,23 +519,21 @@ const Index = () => (
           </AboutHero>
           <AboutDesc>
             <p>
-              I never could have imagined that my love for diving into the code
-              during the Myspace era would lead me into the world of software
-              development, but it did. I've spent the bulk of my professional
-              life working with businesses to find technology solutions, and as
-              a community advocate and mentor. I graduated Florida State
-              University in April 2011, and shortly after I became immersed in
-              the world of technology after participating in my 1st Hackathon
-              hosted by Startup Weekend.
+              I've spent the bulk of my professional career working with
+              businesses to find technology solutions, and as a community
+              advocate and mentor. I graduated Florida State University in April
+              2011, and shortly after I became immersed in the world of
+              technology after participating in my 1st Hackathon hosted by
+              Startup Weekend.
             </p>
             <p>
-              Through-out my career in technology ajacent roles, I've had the
-              opportunity to participate, and see first-hand the successful exit
-              of 2 start-ups. As proponent of the national initiative to promote
-              STEM (Science, Technology, Engineering, Mathematics) I have worked
-              within higher education at Keiser University School of Advanced
-              Technology working to encourage more minorities, and women to
-              pursue degrees in the high demand technology fields.
+              Through-out my career, I've been fortunate enough to see
+              first-hand the successful exit of 2 start-ups. As proponent of the
+              national initiative to promote STEM (Science, Technology,
+              Engineering, Mathematics) I have worked within higher education at
+              Keiser University School of Advanced Technology working to
+              encourage more minorities, and women to pursue degrees in the high
+              demand technology fields.
             </p>
             <p>
               As a Full Stack engineer I have had the pleasure to work with
