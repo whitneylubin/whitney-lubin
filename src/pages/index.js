@@ -578,7 +578,7 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{" "}
+          &copy; 2018 by Whitney Lubin.{" "}
           <a href="https://github.com/whitneylubin/whitney-lubin">
             Github Repository
           </a>
