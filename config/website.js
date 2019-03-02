@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitle: "Whitney Lubin", // Navigation and Site Title
   siteTitleAlt: "Whitney Lubin Software Engineer", // Alternative Site title for SEO
-  siteUrl: "https://whitneylubin.github.io/whitney-lubin", // Domain of your site. No trailing slash!
+  siteUrl: "https://whitneylubin.com", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
   siteLogo: "/logos/logo-1024.png", // Used for SEO and manifest
   siteDescription: "PortFolio Site for Whitney Lubin",
