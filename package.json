@@ -31,9 +31,11 @@
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
-    "gatsby",
-    "starter",
-    "portfolio"
+    "whitney",
+    "lubin",
+    "software",
+    "engineer",
+    "haitian"
   ],
   "scripts": {
     "dev": "gatsby develop -o",
